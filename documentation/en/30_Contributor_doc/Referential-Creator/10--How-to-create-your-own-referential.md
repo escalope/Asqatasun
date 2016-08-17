@@ -3,28 +3,27 @@
 @@@TODO refactor this doc
 
 ## Prerequisite : 
+
 Build asqatasun (it may take a while !!)
+
 ```sh
 cd Asqatasun/
 mvn clean install
 ```
 
-Install manually the apache commons-csv library.
-```sh
-cd Asqatasun/rules/referential-creator-maven-plugin/src/main/resources/lib/
-./install_lib.sh
-```
-
 Build the referential-creator maven plugin
+
 ```sh
 cd Asqatasun/rules/referential-creator-maven-plugin/
 mvn clean install
 ```
 
 ## Prepare and generate your referential
+
 ### Prepare your referential (CSV File)
 
 #### Mandatory columns
+
 * The theme column : Each cell contain a thematic id, defined by an integer (should be incremented).
 
 * The theme_xx column : Each cell contain the theme label to be display on the UI.
@@ -35,6 +34,7 @@ mvn clean install
 
 The minimum header line to create context : 
 `theme;theme_en;test;test-label_en`
+
 Note that you can replace `en` by an other language.
 
 #### Optional columns
