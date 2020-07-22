@@ -30,6 +30,13 @@
                 <value>classpath:i18n/rule-rgaa30-I18N</value>
                 <value>classpath:i18n/rule-remark-rgaa30-I18N</value>
 
+                <!--rgaa4.0 i18n files -->
+                <value>classpath:i18n/referential-rgaa40-I18N</value>
+                <value>classpath:i18n/theme-rgaa40-I18N</value>
+                <value>classpath:i18n/criterion-rgaa40-I18N</value>
+                <value>classpath:i18n/rule-rgaa40-I18N</value>
+                <value>classpath:i18n/rule-remark-rgaa40-I18N</value>
+
                 <!--rgaa3.2016 i18n files -->
                 <value>classpath:i18n/referential-rgaa32016-I18N</value>
                 <value>classpath:i18n/theme-rgaa32016-I18N</value>

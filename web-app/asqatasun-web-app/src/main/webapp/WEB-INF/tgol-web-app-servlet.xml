@@ -44,6 +44,9 @@
     <!-- SEO imports -->
     <import resource="classpath:conf/context/seo/web-app/seo-beans-webapp.xml"/>
 
+    <!-- rgaa40 imports -->
+    <import resource="classpath:conf/context/rgaa40/web-app/rgaa40-beans-webapp.xml"/>
+
     <!-- rgaa32016 imports -->
     <import resource="classpath:conf/context/rgaa32016/web-app/rgaa32016-beans-webapp.xml"/>
 
